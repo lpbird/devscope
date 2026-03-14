@@ -1,0 +1,48 @@
+{
+  "name": "devscope",
+  "version": "0.1.0",
+  "description": "Detect, install, and manage development environments. Scan & visualize all your local code projects. MCP-native.",
+  "type": "module",
+  "bin": {
+    "devscope": "./src/cli.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node src/cli.js",
+    "mcp": "node src/mcp.js",
+    "pub": "npm version patch && npm publish"
+  },
+  "keywords": [
+    "devscope",
+    "dev-environment",
+    "environment-setup",
+    "runtime-detector",
+    "project-scanner",
+    "mcp",
+    "mcp-server",
+    "cli",
+    "developer-tools",
+    "code-intelligence"
+  ],
+  "author": "lpbird",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lpbird/devscope.git"
+  },
+  "homepage": "https://github.com/lpbird/devscope",
+  "bugs": {
+    "url": "https://github.com/lpbird/devscope/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "fdir": "^6.5.0",
+    "ora": "^8.2.0"
+  }
+}
