@@ -3,7 +3,7 @@
 > Development environment at a glance — detect, install, and manage your dev tools. Scan & visualize all local code projects. MCP-native.
 
 [![npm version](https://img.shields.io/npm/v/devscope)](https://www.npmjs.com/package/devscope)
-[![license](https://img.shields.io/npm/l/devscope)](./LICENSE)
+[![license](https://img.shields.io/github/license/lpbird/devscope)](./LICENSE)
 
 ---
 
